@@ -7,7 +7,7 @@ export const showLoading = (show: boolean) => ({
     payload: show
 });
 
-export const msgError = (error: boolean) => ({
+export const msgError = (error: string | null) => ({
     type: UiActionsEnum.uiSetError,
     payload: error
 });
